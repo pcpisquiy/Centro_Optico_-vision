@@ -1,0 +1,101 @@
+*{
+font-family: 'Acme', sans-serif;;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+      background-color:#CEDAF2 ;
+  }
+.borde-nav{
+    border-radius: 30px;
+}
+
+.color_nav {
+    background: rgba( 32, 161, 212);
+    transition: all 1s ease;
+}
+.color_nav_scroll{
+    background:  rgba(32, 161, 212, 0.753)!important;
+    transition: all 1s ease;
+
+}
+.espaciado{
+    padding-top: 57px;
+}
+.blue-900{
+    background: #0D47A1;
+}
+.text-optica-azul{
+color: rgba( 32, 161, 212);
+border-bottom: white 2px solid;
+padding-top: 10px;
+}
+.text-optica-rojo{
+    color:#c32c31;
+    border-bottom: white 2px solid;
+    padding-top: 10px;
+    } 
+.text-optica-verde{
+        color: #a5c04f;
+        border-bottom: white 2px solid;
+        padding-top: 10px;
+        }
+.titulo_h2_filosofia{
+        border-bottom: #a5c04f 5px solid !important;
+        color:#c32c31 !important;
+        font-weight: bold;
+
+}
+.titulo_h2_instalaciones{
+  border-bottom: #a5c04f 5px solid !important;
+  color: rgba( 32, 161, 212) !important;
+  font-weight: bold;
+
+}
+.titulo_h2_servicios{
+  border-bottom: #a5c04f 5px solid !important;
+  color: #a5c04f !important;
+  font-weight: bold;
+
+}
+.card-filosofia{
+  width: 300px !important;
+  height: 500px !important;
+
+}
+blink {
+    animation: blink-1-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-1-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-1-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-1-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+.footer{
+  background: #a5c04f ;
+} 
+.copyright{
+  background:rgba( 32, 161, 212)  !important;
+}
+#nosotros{
+  background-image: url('../img/varios/Fondo.png');
+  padding-bottom: 20px;
+}
+.control-color{
+  color: black !important;
+}
+.img_catalogo{
+  max-width:61%;
+  height:auto;
+}
+body{
+  overflow-x: hidden;
+}
